@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/feedback.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><h1>MyStore</h1></a>
+            </div>
+    
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="header-actions" id="headerActions">
+                <div class="books">
+                    <a href="/#books">
+                        <span>Books</span>
+                    </a>
+                </div>
+                
+                <div class="authors">
+                    <a href="/#authors">
+                        <span>Authors</span>
+                    </a>
+                </div>
+                <div class="events">
+                    <a href="events.html">
+                        <span>Events</span>
+                    </a>
+                </div>
+                <div class="contact">
+                    <a href="contact.html">
+                        <span>Contact</span>
+                    </a>
+                </div>
+                <div class="feedback">
+                    <a href="feedback.html">
+                        <span>Feedback</span>
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="cart.html">
+                        <span>Cart</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+  <main>
+    <div id="feedbackMessage" style="text-align:center; margin-top: 10px; color: green;"></div>
+
+    <form class="feedback-form" id="feedbackForm">
+      <div class="feedback-container">
+        <h2 class="feedback-title">We Value Your Feedback</h2>
+        <p class="feedback-subtitle">Let us know what you think about our books and how we can improve.</p>
+
+        <div class="feedback-form-wrapper">
+          <form class="feedback-form">
+            <div class="form-group">
+              <label for="userName">Your Name</label>
+              <input type="text" id="userName" name="userName" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="userEmail">Your Email</label>
+              <input type="email" id="userEmail" name="userEmail" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="bookFeedback">Feedback</label>
+              <textarea id="bookFeedback" name="bookFeedback" rows="5" placeholder="Share your thoughts about our books, website, or service..." required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="rating">Rate Us</label>
+              <select id="rating" name="rating" required>
+                <option value="">Select</option>
+                <option value="5">★★★★★ - Excellent</option>
+                <option value="4">★★★★☆ - Good</option>
+                <option value="3">★★★☆☆ - Average</option>
+                <option value="2">★★☆☆☆ - Poor</option>
+                <option value="1">★☆☆☆☆ - Very Poor</option>
+              </select>
+            </div>
+
+            <button type="submit" class="feedback-submit-btn">Submit Feedback</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-basic">
+      <h2>MyStore</h2>
+      <p>Contact us: contact@mystore.com | +123 456 7890</p>
+      <p>&copy; 2025 MyStore. All rights reserved.</p>
+    </div>
+  </footer>
+<script src="js/feedback.js"></script>
+</body>
+</html>

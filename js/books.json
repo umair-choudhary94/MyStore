@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "It",
+    "description": "A horror novel by Stephen King that takes readers to the small town of Derry, Maine, where a group of children confronts an ancient evil entity. This being, who takes the shape of a clown named Pennywise, feeds on the fears and anxieties of the children. The story is set in two timelines, with the children battling the evil in the 1950s, and as adults, they return to Derry to face it again. The novel explores themes of friendship, fear, trauma, and the battle between good and evil.",
+    "price": 19.99,
+    "image": "https://m.media-amazon.com/images/I/71N2oKE+cnL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "The Shining",
+    "description": "Stephen King's psychological horror novel that takes place at the Overlook Hotel, an isolated resort high in the Colorado Rockies. The story follows Jack Torrance, a struggling writer who accepts a job as the hotel’s winter caretaker. He moves in with his wife Wendy and young son Danny, who has psychic abilities. As winter sets in and the hotel becomes snowbound, Jack begins to unravel, influenced by malevolent supernatural forces in the hotel. The novel explores themes of isolation, madness, and the effects of past trauma on individuals.",
+    "price": 15.99,
+    "image": "https://m.media-amazon.com/images/I/91U7HNa2NQL.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Carrie",
+    "description": "Stephen King's debut novel tells the story of Carrie White, a shy and introverted high school student with a religiously oppressive upbringing. Carrie discovers she has telekinetic powers, and her life takes a dark turn after being cruelly bullied by her classmates. The novel culminates in a dramatic and violent high school prom night disaster, as Carrie unleashes her powers in a horrifying display of revenge. *Carrie* explores themes of bullying, adolescence, and the dangerous consequences of repression and cruelty.",
+    "price": 14.99,
+    "image": "https://dynamic.indigoimages.ca/v1/books/books/1984898108/1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Harry Potter and the Sorcerer's Stone",
+    "description": "The first book in J.K. Rowling's *Harry Potter* series introduces us to Harry, a young boy who discovers on his 11th birthday that he is a wizard. Harry is taken to Hogwarts School of Witchcraft and Wizardry, where he learns magic, makes friends, and uncovers secrets about his past. As he becomes more aware of his own extraordinary abilities, Harry confronts the dark wizard who killed his parents, setting the stage for an epic battle between good and evil. The book mixes themes of friendship, bravery, and identity with a richly built magical world.",
+    "price": 10.99,
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1474154022i/3.jpg"
+  },
+  {
+    "id": 5,
+    "name": "A Game of Thrones",
+    "description": "The first book in *A Song of Ice and Fire* series by George R.R. Martin introduces the Seven Kingdoms of Westeros, a world full of political intrigue, war, and ancient magic. The story follows the noble families of the North, the Lannisters, the Starks, and others, as they vie for control of the Iron Throne. At the same time, in the far north, a supernatural threat is growing, one that could destroy all of humanity. The book is known for its complex characters, intricate plots, and shocking twists, along with its exploration of power, loyalty, and survival in a brutal world.",
+    "price": 17.99,
+    "image": "https://m.media-amazon.com/images/I/81CiRBnk8VL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Murder on the Orient Express",
+    "description": "Agatha Christie's classic detective novel featuring her famous Belgian detective Hercule Poirot. The story is set aboard the luxurious train, the Orient Express, traveling from Istanbul to Calais. When a wealthy passenger is murdered during the journey, Poirot is called upon to solve the case. As Poirot uncovers secrets about the passengers and their motivations, he realizes that the truth is far more complex than it first appears. The novel explores themes of justice, revenge, and morality, with a thrilling and unexpected conclusion.",
+    "price": 12.99,
+    "image": "https://whs.dmmserver.com/media/640/97800085/9780008516000.jpg"
+  }
+]

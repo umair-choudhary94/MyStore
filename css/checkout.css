@@ -1,0 +1,109 @@
+
+
+.checkout-wrapper {
+   
+    width: 50%;
+    padding: 2rem;
+    background: linear-gradient(#1a1a1a, #000000);
+    border-radius: 8px;
+    
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(20, 220, 97);
+}
+#checkout{
+    text-align: center;
+}
+h1, h2 {
+    
+    color: rgb(255, 206, 70);
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-top: 1.2rem;
+    font-weight: bold;
+    color: #ffcccc;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.2rem;
+    
+    border-radius: 4px;
+    background-color: #1a1a1a;
+    color: white;
+    
+}
+
+input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    color: #ffdddd;
+}
+
+.checkbox-group input {
+    margin-right: 0.5rem;
+    accent-color: rgb(24, 3, 7);
+}
+
+button {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    background-color: rgb(255, 217, 0);
+    border: none;
+    color: black;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    
+    letter-spacing: 1px;
+    box-shadow: 0 0 15px crimson;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(240, 199, 16);
+    
+    transform: scale(1);
+}
+
+.secure-note {
+    color: rgb(53, 146, 10);
+    margin-bottom: 1rem;
+    font-style: italic;
+    text-shadow: 1px 1px 5px black;
+}
+
+.small-text {
+    font-size: 0.9rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+
+@media (max-width: 768px) {
+    .checkout-wrapper {
+       width: 100%;
+       margin: 1px;
+    }
+}
+
+
+
+
+

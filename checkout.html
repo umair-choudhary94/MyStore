@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><h1>MyStore</h1></a>
+            </div>
+    
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="header-actions" id="headerActions">
+                <div class="books">
+                    <a href="/#books">
+                        <span>Books</span>
+                    </a>
+                </div>
+                
+                <div class="authors">
+                    <a href="/#authors">
+                        <span>Authors</span>
+                    </a>
+                </div>
+                <div class="events">
+                    <a href="events.html">
+                        <span>Events</span>
+                    </a>
+                </div>
+                <div class="contact">
+                    <a href="contact.html">
+                        <span>Contact</span>
+                    </a>
+                </div>
+                <div class="feedback">
+                    <a href="feedback.html">
+                        <span>Feedback</span>
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="cart.html">
+                        <span>Cart</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    
+  <div class="checkout-wrapper">
+    <h1 id="checkout">Checkout</h1>
+
+    <!-- Contact Section -->
+    <h2>Contact</h2>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="example@example.com" required>
+    
+    <!-- Delivery Section -->
+    <h2>Delivery</h2>
+
+    <label for="country">Country/Region</label>
+    <select id="country" required>
+      <option>Australia</option>
+      <option>United States</option>
+      <option>Canada</option>
+      <option>United Kingdom</option>
+    </select>
+
+    <label for="first-name">First name</label>
+    <input type="text" id="first-name" required>
+
+    <label for="last-name">Last name</label>
+    <input type="text" id="last-name" required>
+
+    <label for="address">Address</label>
+    <input type="text" id="address" required>
+
+    <label for="apartment">Apartment, suite, etc. (optional)</label>
+    <input type="text" id="apartment">
+
+    <label for="city">City</label>
+    <input type="text" id="city" required>
+
+    <label for="state">State/territory</label>
+    <select id="state" required>
+      <option>Northern Territory</option>
+      <option>New South Wales</option>
+      <option>Victoria</option>
+      <option>Queensland</option>
+      <option>Western Australia</option>
+      <option>South Australia</option>
+      <option>Tasmania</option>
+      <option>Australian Capital Territory</option>
+    </select>
+
+    <label for="postcode">Postcode</label>
+    <input type="text" id="postcode" required>
+
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" required>
+    
+
+    <!-- Payment Section -->
+    <h2>Payment</h2>
+    <p class="secure-note"><i class="fas fa-lock"></i> All transactions are secure and encrypted.</p>
+
+    <label>Payment Method</label>
+    <p class="small-text">Credit card: VISA, MasterCard, American Express, UnionPay</p>
+
+    <label for="card-number">Card number</label>
+    <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+
+    <label for="expiry">Expiration date (MM / YY)</label>
+    <input type="text" id="expiry" placeholder="MM / YY" required>
+
+    <label for="cvv">Security code</label>
+    <input type="text" id="cvv" placeholder="123" required>
+
+    <label for="name-on-card">Name on card</label>
+    <input type="text" id="name-on-card" required>
+
+    
+
+    <button type="submit">Pay Now</button>
+  </div>
+  <footer>
+    <div class="footer-basic">
+        <h2>MyStore</h2>
+        <p>Contact us: contact@mystore.com | +123 456 7890</p>
+        <p>&copy; 2025 MyStore. All rights reserved.</p>
+    </div>
+</footer>
+
+
+<script src="js/script.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - MyStore</title>
+    <link rel="stylesheet" href="css/book-detail.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><h1>MyStore</h1></a>
+            </div>
+    
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="header-actions" id="headerActions">
+                <div class="books">
+                    <a href="/#books">
+                        <span>Books</span>
+                    </a>
+                </div>
+                
+                <div class="authors">
+                    <a href="/#authors">
+                        <span>Authors</span>
+                    </a>
+                </div>
+                <div class="events">
+                    <a href="events.html">
+                        <span>Events</span>
+                    </a>
+                </div>
+                <div class="contact">
+                    <a href="contact.html">
+                        <span>Contact</span>
+                    </a>
+                </div>
+                <div class="feedback">
+                    <a href="feedback.html">
+                        <span>Feedback</span>
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="cart.html">
+                        <span>Cart</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    
+    <main class="pd-wrapper">
+        
+        <div class="pd-left-col">
+            <div class="pd-img-primary">
+                <img src="" alt="" id="mainImg">
+            </div>
+            
+        </div>
+
+        <div class="pd-right-col">
+            
+
+            <h1 class="pd-title"></h1>
+            
+            
+
+            <div class="pd-price-box">
+                <span class="pd-price-now"></span>
+                
+            </div>
+
+
+            <div class="pd-summary">
+                <p></p>
+            </div>
+
+           
+
+           
+
+            <div class="pd-action-btns">
+    
+                <!-- Quantity Selector -->
+                <div class="quantity-selector">
+                    <button class="qty-btn" disabled>-</button>
+                    <input type="text" value="1" readonly>
+                    <button class="qty-btn">+</button>
+                </div>
+            
+                <!-- Add to Cart -->
+                <a href="#" class="pd-btn pd-btn--primary" id="addToCart">Add to Cart</a>
+            
+               
+            
+            </div>
+            
+
+            
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-basic">
+            <h2>MyStore</h2>
+            <p>Contact us: contact@mystore.com | +123 456 7890</p>
+            <p>&copy; 2025 MyStore. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        const qtyBtns = document.querySelectorAll(".qty-btn");
+        const qtyInput = document.querySelector(".quantity-selector input");
+        const minusBtn = document.querySelector(".qty-btn[disabled]");
+        minusBtn.disabled = false;
+      
+        qtyBtns.forEach(btn => {
+          btn.addEventListener("click", () => {
+            let currentQty = parseInt(qtyInput.value);
+            if (btn.textContent === "+" && currentQty < 99) {
+              qtyInput.value = currentQty + 1;
+            } else if (btn.textContent === "-" && currentQty > 1) {
+              qtyInput.value = currentQty - 1;
+            }
+            if (qtyInput.value == 1) {
+              minusBtn.disabled = true;
+            } else {
+              minusBtn.disabled = false;
+            }
+          });
+        });
+      </script>
+      
+    <script src="js/script.js"></script>
+    <script src="js/book-detail.js"></script>
+</body>
+</html>
